@@ -9,6 +9,7 @@ from products import create_product_download
 import requests
 import logging
 
+
 logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
